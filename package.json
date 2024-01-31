@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vite",
     "built": "tailwindcss -i ./styles/tailwind.css -o ./styles/style.min.css --minify",
-    "build":"vite build",
+    "build": "vite build",
     "watch": "tsc -w"
   },
   "keywords": [],
@@ -14,7 +14,8 @@
   "license": "ISC",
   "dependencies": {
     "liteserver": "^0.3.0",
-    "tailwindcss-gradients": "^3.0.0"
+    "tailwindcss-gradients": "^3.0.0",
+    "vite": "^5.0.12"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.17",
